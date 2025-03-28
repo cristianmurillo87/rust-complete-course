@@ -1,4 +1,4 @@
-fn print_basic_data_ypes() {
+fn print_basic_data_types() {
     // Integer Types (Signed)
     let i8_example: i8 = -128;            // Range: -128 to 127
     let i16_example: i16 = 32767;         // Range: -32,768 to 32,767
