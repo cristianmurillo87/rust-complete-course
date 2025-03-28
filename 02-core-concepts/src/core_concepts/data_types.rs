@@ -27,7 +27,7 @@ fn print_basic_data_ypes() {
 
     // Compound Types
     let array_example: [i32; 5] = [1, 2, 3, 4, 5];  // Fixed size array
-    let tuple_example: (i32, f64, bool) = (42, 3.14, true);  // Tuple
+    let tuple_example: (i32, f64, bool) = (42, 3.14, true);  // Tuple (always fixed sizes and data types of elements must be defined)
 
     // String Types
     let string_example: String = String::from("Hello");  // Owned string
