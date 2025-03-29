@@ -30,7 +30,7 @@ fn print_basic_data_types() {
     let tuple_example: (i32, f64, bool) = (42, 3.14, true);  // Tuple (always fixed sizes and data types of elements must be defined)
 
     // String Types
-    let string_example: String = String::from("Hello");  // Owned string
+    let string_example: String = String::from("Hello");  // Owned string - to be used when ownership or manipulation of the text is needed
     let str_slice_example: &str = "Hello";               // String slice
 
     // Unit Type
